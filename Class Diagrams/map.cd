@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HeldItem">
+    <Position X="11" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACQABAAAAAAAAAQAAAAAUBABABAAEAAAAQA=</HashCode>
+      <FileName>Assets\Objects\Generic\HeldItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelInfo">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>Assets\Objects\Global\LevelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map">
+    <Position X="7.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAQBAAAAAAAABBAAAAEAAQABAQAACIAA=</HashCode>
+      <FileName>Assets\Objects\Map\Map.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="explorer" />
+      <Field Name="info" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MapExplorer">
+    <Position X="1.5" Y="2" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="MapExplorer.HandleMapUpdate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Objects\Map\MapExplorer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACCAAAAAAAAAQQAAAAAAAAAAQABgAAAAAAI=</HashCode>
+      <FileName>Assets\Objects\Map\MapExplorer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="info" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

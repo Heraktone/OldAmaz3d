@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="InventoryItem">
+    <Position X="48" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQAABAIAAAAAACAAAAAAAAAAAAAEAEAAA=</HashCode>
+      <FileName>Assets\Objects\Generic\Inventory\InventoryBearer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnableInventoryItem">
+    <Position X="48" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAFAAAAAAAAAAAAAEAIAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Generic\Inventory\SpawnableInventoryItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="0.5" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAQAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Objects\Global\PlayerController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="keyManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Lock">
+    <Position X="44.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAAAAAAAAAAAEAAAAABAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Lock\Lock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseTrigger">
+    <Position X="40.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Triggers\BaseTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clickable">
+    <Position X="36.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Triggers\Clickable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInventoryEnterable">
+    <Position X="38.75" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Triggers\PlayerInventoryEnterable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandomizeWeights">
+    <Position X="42.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAACAAAAAAAAAQAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\WeighingScale\RandomizeWeights.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController" Collapsed="true">
+    <Position X="1" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EQQAhAIgEiAcEEQAgAAgCEACAAACgAIMGCAAQAAVIQA=</HashCode>
+      <FileName>Assets\Standard\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="46.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Button">
+    <Position X="61" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Objects\Button\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Counter">
+    <Position X="58.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAgAAIAAAAAAAAAAAICAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Counter\Counter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorController">
+    <Position X="64.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Door\DoorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Label">
+    <Position X="23.5" Y="2" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAgAAMAAAAAACAAAAEAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Objects\Floating Label\Label.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeldItem">
+    <Position X="85.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACQABAAAAAAAAAQAAAAAUBABABAAEAAAAQA=</HashCode>
+      <FileName>Assets\Objects\Generic\HeldItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryBearer">
+    <Position X="51" Y="2" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAgABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Generic\Inventory\InventoryBearer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryView">
+    <Position X="54.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAABAAABAAAAAAAAAAAAAAABAABAAAA=</HashCode>
+      <FileName>Assets\Objects\Generic\Inventory\InventoryView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bearer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Storable">
+    <Position X="44.25" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Generic\Inventory\Storable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pickupable">
+    <Position X="16.5" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAACIkEAAAAAgACAAgAUAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Objects\Generic\Pickupable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickupObject">
+    <Position X="20.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAEACAQgiAAAEAAAEAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Generic\PickupObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="keyManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Resettable">
+    <Position X="91.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAACAAAAAAACAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Generic\Resettable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandRunner">
+    <Position X="4.5" Y="2" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="CommandRunner.Command">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Objects\Global\CommandRunner.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAQAAAKAAAACAAAAAAAAAAAAAAAAACAAAEAAAAA=</HashCode>
+      <FileName>Assets\Objects\Global\CommandRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="13.25" Y="2" Width="2.5" />
+    <AssociationLine Name="cmdRunner" Type="CommandRunner" ManuallyRouted="true">
+      <Path>
+        <Point X="13.625" Y="2" />
+        <Point X="13.625" Y="1.303" />
+        <Point X="7.75" Y="1.303" />
+        <Point X="7.75" Y="2" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEQAAAIAAAAIAIAAAACgAAACAAAAQAAIAAABAAAAAUA=</HashCode>
+      <FileName>Assets\Objects\Global\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="keys" />
+      <Field Name="cmdRunner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KeyMgr">
+    <Position X="9" Y="2" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="KeyMgr.Action">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Objects\Global\KeyMgr.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAQAAAACACAAAAAAAAAAAABCAAAAQAAAAGAAAAgBAEo=</HashCode>
+      <FileName>Assets\Objects\Global\KeyMgr.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cmdRunner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LevelInfo">
+    <Position X="77" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>Assets\Objects\Global\LevelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResetTransf">
+    <Position X="89.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\Global\ResetTransf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map">
+    <Position X="79.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAQBAAAAAAAABBAAAAEAAQABAQAACIAA=</HashCode>
+      <FileName>Assets\Objects\Map\Map.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="explorer" />
+      <Field Name="info" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MapExplorer">
+    <Position X="82.5" Y="2" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="MapExplorer.HandleMapUpdate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Objects\Map\MapExplorer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACCAAAAAAAAAQQAAAAAAAAAAQABgAAAAAAI=</HashCode>
+      <FileName>Assets\Objects\Map\MapExplorer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="info" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Clicker">
+    <Position X="29.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAICAAAAAAAEAAAAAAIBAAUAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Objects\Triggers\Clicker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="keyManager" />
+      <Field Name="currentLabel" />
+      <Field Name="currentTarget" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BalanceLogic">
+    <Position X="71.25" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAIAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\WeighingScale\BalanceLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HasWeight">
+    <Position X="74.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Objects\WeighingScale\HasWeight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeighingScale">
+    <Position X="67.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAgAAAACAAAAAAEAAABAAgAAAAQ=</HashCode>
+      <FileName>Assets\Objects\WeighingScale\WeighingScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

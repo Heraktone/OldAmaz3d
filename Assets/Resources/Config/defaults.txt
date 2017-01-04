@@ -1,0 +1,12 @@
+bind Z step_forward
+bind S step_backward
+bind Q step_left
+bind D step_right
+bind Space jump
+bind E interact
+bind G unibutton
+bind UpArrow step_forward
+bind DownArrow step_backward
+bind LeftArrow step_left
+bind RightArrow step_right
+bind Escape pause
